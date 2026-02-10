@@ -1,4 +1,4 @@
-# weakwords <img src="extension/icons/icon48.png" width="48" height="48" alt="" />
+# weakwords <img src="extension/icons/icon48.png" width="28" height="28" alt="" />
 
 Track your slowest and most errored words on MonkeyType.
 
