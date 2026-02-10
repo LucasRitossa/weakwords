@@ -1,6 +1,16 @@
-# weakwords
+# weakwords <img src="extension/icons/icon48.png" width="48" height="48" alt="" />
 
 Track your slowest and most errored words on MonkeyType.
+
+## Install (Firefox)
+Install the extension from [here]().
+
+## Install (Chrome)
+1. Download latest release.
+2. Unzip the file
+3. Type `chrome://extensions` into the URL bar.
+4. Check "Developer mode"
+5. Click "Load Unpacked" > Select unzipped directory
 
 ### Using Your Word Lists
 
