@@ -1,4 +1,4 @@
-# weakwords <img src="extension/icons/icon48.png" width="28" height="28" alt="" />
+# weakwords <img src="extension/icons/icon128.png" width="40" height="40" alt="" />
 
 Track your slowest and most errored words on MonkeyType.
 
@@ -12,7 +12,7 @@ Install the extension from [here]().
 4. Check "Developer mode"
 5. Click "Load Unpacked" > Select unzipped directory
 
-### Using Your Word Lists
+## Using Your Word Lists
 
 1. In the popup, click copy all for slow or errored words
 2. On monkeytype.com choose custom>change in the mode list
