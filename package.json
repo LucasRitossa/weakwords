@@ -1,0 +1,10 @@
+{
+  "name": "weakwords-extension",
+  "version": "1.0.0",
+  "description": "Browser extension for tracking slow and errored words on MonkeyType",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -r extension/* dist/",
+    "pack": "pnpm run build && cd dist && zip -r ../weakwords-extension.zip . && cp ../weakwords-extension.zip ../weakwords-extension.xpi"
+  },
+  "devDependencies": {}
+}

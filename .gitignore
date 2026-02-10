@@ -1,0 +1,28 @@
+# Build outputs
+dist/
+*.zip
+*.xpi
+
+# Test outputs
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js (if using for testing)
+node_modules/
+package-lock.json
+
+# Editor backups
+*~
+*.bak
+
+# Temporary files
+*.tmp

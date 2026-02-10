@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "weakwords",
+  "version": "1.0.0",
+  "description": "Track your slowest and most errored words on MonkeyType for targeted practice.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "weakwords@lucasr.posteo.us",
+      "strict_min_version": "109.0"
+    }
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["*://monkeytype.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://monkeytype.com/*"],
+      "js": ["lib/storage.js", "content/tracker.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "weakwords"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
