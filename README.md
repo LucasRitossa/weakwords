@@ -3,7 +3,7 @@
 Track your slowest and most errored words on MonkeyType.
 
 ## Install (Firefox)
-Install the extension from [here]().
+Install the extension from [here](https://addons.mozilla.org/en-US/firefox/addon/weakwords/).
 
 ## Install (Chrome)
 1. Download latest release.
